@@ -1,7 +1,8 @@
 #!/bin/bash
-#Version: 1.0.0.1
-#Editor:Jarbo
-#TL001001001
+#Version: 2.0.0
+#Editor:JarboU
+#Date：2017.02.09
+
 PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
 export PATH
 DATE=$(date +%Y%m%d%H%M)
@@ -19,9 +20,9 @@ AppName=INF
 JdkPath=/usr/java/jdk1.7.0_67
 #进程名称
 JDK_NAME=java
-
+#应用包名
 WarName=ROOT.war
-
+#jvm监听端口
 JxmPort=10001
 
 #################应用参数###########################
@@ -97,7 +98,7 @@ backup() {
 	mkdir $BakPath/$AppName$DATE -p
 	chown -R ane.ane $BakPath
 	cp -r $SoftPath/webapps/$WarName $BakPath/$AppName$DATE/
-	echo "执行备份成功,开始清理缓存"
+	echo "执行备份成功!"
 
 
 }
