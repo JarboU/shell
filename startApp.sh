@@ -1,6 +1,8 @@
 #!/bin/bash
-#Version: 1.0.0.1
-#sit on uit
+#Version: 2.0.0
+#Editor:JarboU
+#Date：2017.02.09
+
 DATE=$(date +%Y%m%d%H%M)
 pkill -9 -f tomcat1
 sleep 10

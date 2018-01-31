@@ -1,7 +1,8 @@
 #!/bin/bash
-#Version: 1.0.0.1
-#Editor:temp
-#TL001002001
+#Version: 2.0.0
+#Editor:JarboU
+#Date：2017.02.09
+
 PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
 export PATH
 DATE=$(date +%Y)

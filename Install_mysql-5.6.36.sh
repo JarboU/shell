@@ -1,4 +1,7 @@
 #!/bin/bash
+#Version: 2.0.0
+#Editor:JarboU
+#Date：2017.02.09
 
 GROUPADD='/usr/sbin/groupadd'
 USERADD='/usr/sbin/useradd'

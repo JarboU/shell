@@ -1,5 +1,8 @@
-
 #!/bin/bash
+#Version: 2.0.0
+#Editor:JarboU
+#Date：2017.02.09
+
 PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
 export PATH
 
